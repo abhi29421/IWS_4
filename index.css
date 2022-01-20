@@ -1,0 +1,196 @@
+.top a {
+  padding: 2px 2px;
+  text-decoration: none;
+  font-size: medium;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#buy {
+  float: right;
+  margin-right: 3px;
+  margin: 10px 20px;
+  border: 2px solid rgb(0, 255, 34);
+  background-color: rgb(0, 255, 34);
+  border-radius: 3px;
+}
+.top {
+  margin-top: -50px;
+  background-color: rgb(46, 45, 45);
+  height: 50px;
+  align-items: center;
+  /* border: 2px solid red; */
+  border: 0px 5px solid red;
+  position: fixed;
+  width: 100%;
+}
+#logo {
+  float: left;
+  margin: 2px 2px;
+  margin: 10px 20px;
+  color: greenyellow;
+}
+
+.top-header1 {
+  background-color: #232323;
+  position: relative;
+  padding: 18px 0;
+}
+.mail {
+  display: inline;
+  float: left;
+  padding: 10px;
+  /* background-color: aqua; */
+  margin-left: 70px;
+  margin: 20px 50px;
+  color: rgb(169, 170, 172);
+}
+.reg {
+  display: inline;
+  float: right;
+  padding: 10px;
+  /* background-color: blue; */
+  margin: 20px 20px;
+  color: rgb(169, 170, 172);
+  /* text-decoration: none; */
+}
+.info {
+  /* margin-top: 200px; */
+  border: 0px solid red;
+  height: 80px;
+  margin-top: 50px;
+  background-color: rgb(46, 45, 45);
+}
+.info a {
+  text-decoration: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto 50px auto 50px auto 50px auto;
+  border: 0px solid red;
+  /* background-color: #2196f3; */
+  padding: 0px;
+  width: 100%;
+  grid-gap: 0px;
+}
+.row {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  /* border: 2px solid red; */
+  /* background-color: #2196f3; */
+  /* padding: px; */
+  width: 100%;
+  grid-gap: 1px;
+  padding: 2px;
+  height: 300px;
+  align-items: center;
+  background-color: rgb(39, 39, 80);
+}
+.row1 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* border: 2px solid red; */
+  /* background-color: #2196f3; */
+  /* padding: px; */
+  width: 100%;
+  grid-gap: 1px;
+  padding: 2px;
+  /* height: 300px; */
+  align-items: center;
+  /* background-color: rgb(39, 39, 80); */
+}
+.row2 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  border: 2px solid red;
+  /* background-color: #2196f3; */
+  /* padding: px; */
+  width: 100%;
+  grid-gap: 1px;
+  padding: 2px;
+  /* height: 300px; */
+  align-items: center;
+  /* background-color: rgb(39, 39, 80); */
+}
+.row3 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  /* border: 10px solid red; */
+  /* background-color: #2196f3; */
+  /* padding: px; */
+  width: 100%;
+  grid-gap: 0px;
+  padding: 0px;
+  /* height: 300px; */
+  align-items: center;
+  /* background-color: rgb(39, 39, 80); */
+}
+.col > div {
+  align-items: center;
+}
+.grid-item {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  padding: 5px;
+  font-size: 10px;
+  height: 100px;
+  text-align: center;
+  align-items: center;
+}
+.col {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  padding: 5px;
+  font-size: 20px;
+  height: 100px;
+  text-align: center;
+  color: rgb(250, 213, 2);
+  align-items: center;
+  background-color: rgb(39, 39, 80);
+}
+
+.col1 {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  padding: 5px;
+  font-size: 10px;
+  /* height: 100px; */
+  text-align: center;
+  /* color: rgb(250, 213, 2); */
+  align-items: center;
+  /* background-color: rgb(39, 39, 80); */
+}
+.col2 {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  padding: 5px;
+  font-size: 10px;
+  /* height: 100px; */
+  text-align: center;
+  /* color: rgb(250, 213, 2); */
+  align-items: center;
+  /* background-color: rgb(39, 39, 80); */
+}
+.col3 {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  /* padding: 2px; */
+  font-size: 15px;
+  /* height: 100px; */
+  text-align: center;
+  /* color: rgb(250, 213, 2); */
+  align-items: center;
+  /* background-color: rgb(39, 39, 80); */
+}
+.grid-item1 > div {
+  align-items: center;
+  size: 100px;
+}
+svg {
+  float: left;
+  margin-top: 12px;
+  margin-left: 18px;
+}
+h3 {
+  font-style: bold;
+  color: rgb(7, 131, 247);
+}
